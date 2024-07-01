@@ -4,10 +4,6 @@
 header('Content-Type: application/json');
 
 
-// echo json_encode($animali);
-
-
-
 $rawdata = file_get_contents('db\todo.json'); //recupero il contenuto del file
 
 $data = json_decode($rawdata, true);

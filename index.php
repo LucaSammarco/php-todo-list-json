@@ -28,8 +28,35 @@
 
 
             <div class="row">
-                
+
+                            <form method="POST">
+                                <div class="mb-3">
+                                    <label for="taskName" class="form-label">Task Name</label>
+                                    <input type="text" class="form-control" id="taskName" name="taskName">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="taskStatus" class="form-label">Task Status</label>
+                                    <select class="form-select" id="taskStatus" name="taskStatus">
+                                        <option value="true">True</option>
+                                        <option value="false">False</option>
+                                    </select>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+
+
+
+
+
                    <div class="col-12">
+
+                <div class="task-list">
+                    <ul>
+                        <li v-for="task in tasks">{{ task.task }}</li>
+                    </ul>
+                </div>
+
+
                    </div>
             </div>
 

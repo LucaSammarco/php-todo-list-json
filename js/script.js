@@ -20,7 +20,7 @@
             })
             .then((response) => {
                 console.log(response);
-                this.todo = response.data;
+                this.tasks = response.data;
             })
             .catch((error) => {
                 console.log(error);

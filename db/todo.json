@@ -1,3 +1,4 @@
 [
-    { "task": "Prima Task", "completed": "true"}
+    { "task": "Prima Task", "completed": true}
+   
 ]
