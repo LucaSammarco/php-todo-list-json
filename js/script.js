@@ -4,8 +4,9 @@
   createApp({
     data() {
       return {
-       taglia: 'Grande',
-       animali: [],
+       tasks: [],
+       completed: '',
+       task: '',
       }
     },
     
@@ -14,12 +15,12 @@
         getData(){
             axios.get('./server.php', {
                 params: {
-                    taglia: this.taglia,
+                    task: this.task,
                 }
             })
             .then((response) => {
                 console.log(response);
-                this.animali = response.data;
+                this.todo = response.data;
             })
             .catch((error) => {
                 console.log(error);
