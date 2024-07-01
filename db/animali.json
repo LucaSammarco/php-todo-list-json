@@ -1,0 +1,23 @@
+[
+    { "nome": "Luna", "specie": "Cane", "taglia": "Media" },
+    { "nome": "Milo", "specie": "Gatto", "taglia": "Piccola" },
+    { "nome": "Bella", "specie": "Cavallo", "taglia": "Grande" },
+    { "nome": "Oscar", "specie": "Coniglio", "taglia": "Piccola" },
+    { "nome": "Leo", "specie": "Pappagallo", "taglia": "Piccola" },
+    { "nome": "Max", "specie": "Cane", "taglia": "Grande" },
+    { "nome": "Charlie", "specie": "Gatto", "taglia": "Media" },
+    { "nome": "Daisy", "specie": "Cavallo", "taglia": "Grande" },
+    { "nome": "Coco", "specie": "Coniglio", "taglia": "Piccola" },
+    { "nome": "Rocky", "specie": "Pappagallo", "taglia": "Media" },
+    { "nome": "Buddy", "specie": "Cane", "taglia": "Media" },
+    { "nome": "Lily", "specie": "Gatto", "taglia": "Piccola" },
+    { "nome": "Spirit", "specie": "Cavallo", "taglia": "Grande" },
+    { "nome": "Nibbles", "specie": "Coniglio", "taglia": "Piccola" },
+    { "nome": "Kiwi", "specie": "Pappagallo", "taglia": "Piccola" },
+    { "nome": "Bruno", "specie": "Cane", "taglia": "Grande" },
+    { "nome": "Simba", "specie": "Gatto", "taglia": "Media" },
+    { "nome": "Thunder", "specie": "Cavallo", "taglia": "Grande" },
+    { "nome": "Bunny", "specie": "Coniglio", "taglia": "Piccola" },
+    { "nome": "Sunny", "specie": "Pappagallo", "taglia": "Media" }
+  ]
+  
